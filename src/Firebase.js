@@ -3,18 +3,19 @@ import { initializeApp } from "firebase/app";
 
 import { getFirestore } from "firebase/firestore";
 
-const db = getFirestore(app);
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBPpIWz7vFuxHgCP2a6Bgq_dsA_vI2sFLk",
-    authDomain: "usmart-ca570.firebaseapp.com",
-    projectId: "usmart-ca570",
-    storageBucket: "usmart-ca570.appspot.com",
-    messagingSenderId: "905623931581",
-    appId: "1:905623931581:web:a110c121dd8aaed6ab45d4"
+  apiKey: "AIzaSyASlAuenT3KdmxmbnAlHWJi0aieO0TV99Y",
+  authDomain: "usmart-515da.firebaseapp.com",
+  projectId: "usmart-515da",
+  storageBucket: "usmart-515da.appspot.com",
+  messagingSenderId: "525964893633",
+  appId: "1:525964893633:web:3a6b0f635c8043ff532340",
+  measurementId: "G-HJXZC4ZEKE"
 };
-  
-  // Initialize Firebase
+
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
 export {db};
