@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Faq from './components/FAQ';
+import UserMainPage from './Pages/UserPage/UserMainPage';
 
 function App() {
   return (
     <div className="App">
-      <Faq/>
+      <UserMainPage/>
     </div>
   );
 }
